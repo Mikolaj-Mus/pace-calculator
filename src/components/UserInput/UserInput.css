@@ -1,0 +1,28 @@
+#user-input {
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 30rem;
+  background: linear-gradient(180deg, #0b7285, #22b8cf);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+#user-input label {
+  font-size: 0.5rem;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.6px;
+}
+
+#user-input input {
+  color: #cff7fa;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid #76b5c0;
+  width: 100%;
+  border-radius: 5px;
+}
